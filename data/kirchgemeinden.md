@@ -13,6 +13,8 @@ Diese Liste prüft die wöchentliche Aktualisierung jedes Mal direkt. Sie ergän
 - Kath. Kirche im Kanton Zürich | https://www.zhkath.ch/kirche-aktuell | CH
 - Kirchenbote (Pfarreiblatt Kt. Schwyz u. a.) | https://www.kirchenbote-online.ch | CH
 - Kath. Konfessionsteil des Kantons St. Gallen | https://sg.kath.ch/news/ | CH
+- Ref. Kirchgemeinde Bad Zurzach | https://www.ref-kirche-zurzach.ch | CH
+- Pfarrei Baden-Ennetbaden | https://www.pastoralraum-aargauer-limmattal.ch/baden/aktuell | CH
 
 ## Deutschland
 - Ev. Kirchenkreis Prignitz | https://www.kirchenkreis-prignitz.de/nachrichten | DE
@@ -26,6 +28,9 @@ Diese Liste prüft die wöchentliche Aktualisierung jedes Mal direkt. Sie ergän
 - Ev. Kirchengemeinde Pauluskirche Ulm | https://www.pauluskirche-ulm.de | DE
 - Ev.-Luth. Kirchgemeinde Grosshartmannsdorf (Zethau) | https://www.kirche-grosshartmannsdorf.de/glocken-zethau | DE
 - Pfarreiengemeinschaft Weissensberg | https://kirchenschiff.de | DE
+- Ev. Kirchenkreis Vlotho | https://www.kirchenkreis-vlotho.de | DE
+- Bistum Passau | https://www.bistum-passau.de | DE
+- Ev.-Luth. Kirchengemeinde Uttenreuth | https://www.uttenreuth-evangelisch.de | DE
 
 ## Österreich
 - Diözese Linz | https://www.dioezese-linz.at | AT
@@ -35,3 +40,4 @@ Diese Liste prüft die wöchentliche Aktualisierung jedes Mal direkt. Sie ergän
 - katholisch.at (Kath. Kirche Österreich) | https://www.katholisch.at/aktuelles | AT
 - Kirche bunt / meinekirchenzeitung.at (Kirchenzeitungen) | https://www.meinekirchenzeitung.at/tag/glockenweihe | AT
 - Pfarre Neunkirchen (NÖ) | https://www.pfarre-neunkirchen.at | AT
+- Pfarre St. Ulrich bei Steyr | https://www.dioezese-linz.at/pfarre/4364/aktuelles | AT
