@@ -38,12 +38,12 @@ object FeedFetcher {
         for (q in queries) for ((gl, ceid) in editions) {
             val url = "https://news.google.com/rss/search?q=" +
                 URLEncoder.encode("$q when:30d", "UTF-8") + "&hl=de&gl=$gl&ceid=$ceid"
-            runCatching { out += parse(Http.get(url)) }
+            runCatching { out += parse(Http.get(url), gl) }
         }
         return out
     }
 
-    private fun parse(stream: InputStream): List<NewsItem> = stream.use { input ->
+    private fun parse(stream: InputStream, edition: String): List<NewsItem> = stream.use { input ->
         val parser = Xml.newPullParser()
         parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false)
         parser.setInput(input, null)
@@ -75,7 +75,7 @@ object FeedFetcher {
                 XmlPullParser.END_TAG -> {
                     if (parser.name == "item") {
                         inItem = false
-                        toItem(title.trim(), link.trim(), pub.trim(), source.trim(), sourceUrl, desc)?.let { items += it }
+                        toItem(title.trim(), link.trim(), pub.trim(), source.trim(), sourceUrl, desc, edition)?.let { items += it }
                     }
                     tag = ""
                 }
@@ -85,7 +85,16 @@ object FeedFetcher {
         items
     }
 
-    private fun toItem(rawTitle: String, link: String, pub: String, source: String, sourceUrl: String, desc: String): NewsItem? {
+    /** Land aus der Domain der Quelle (.ch/.de/.at …), sonst aus der Google-News-Ausgabe. */
+    private fun countryOf(sourceUrl: String, edition: String): String {
+        val host = sourceUrl.lowercase().removePrefix("https://").removePrefix("http://").substringBefore("/")
+        return when (host.substringAfterLast(".", "")) {
+            "ch" -> "CH"; "de" -> "DE"; "at" -> "AT"; "li" -> "LI"; "it" -> "IT"; "fr" -> "FR"; "lu" -> "LU"
+            else -> edition
+        }
+    }
+
+    private fun toItem(rawTitle: String, link: String, pub: String, source: String, sourceUrl: String, desc: String, edition: String): NewsItem? {
         if (rawTitle.isBlank() || link.isBlank()) return null
         val host = sourceUrl.lowercase()
         if (socialHosts.any { host.contains(it) }) return null
@@ -104,7 +113,8 @@ object FeedFetcher {
             category = classify(lower + " " + summary.lowercase()),
             title = title,
             place = "",
-            source = source.ifBlank { sourceUrl.removePrefix("https://").removePrefix("http://").removePrefix("www.") },
+            country = countryOf(sourceUrl, edition),
+            source =source.ifBlank { sourceUrl.removePrefix("https://").removePrefix("http://").removePrefix("www.") },
             url = link,
             summary = summary,
             curated = false,

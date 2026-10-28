@@ -31,13 +31,15 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Clear
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.ColorScheme
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.HorizontalDivider
@@ -62,6 +64,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -84,6 +87,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import java.time.LocalDate
 
 class MainActivity : ComponentActivity() {
 
@@ -216,9 +220,14 @@ fun NewsScreen(vm: NewsViewModel = viewModel()) {
     val refreshing by vm.refreshing.collectAsState()
     val message by vm.message.collectAsState()
 
-    var query by remember { mutableStateOf("") }
-    var category by remember { mutableStateOf<Category?>(null) }
-    var onlyCurated by remember { mutableStateOf(false) }
+    var query by rememberSaveable { mutableStateOf("") }
+    var categoryKey by rememberSaveable { mutableStateOf<String?>(null) }
+    val category = categoryKey?.let { Category.of(it) }
+    var onlyCurated by rememberSaveable { mutableStateOf(false) }
+    var land by rememberSaveable { mutableStateOf<String?>(null) }
+    var period by rememberSaveable { mutableStateOf("all") }      // all | 30d | 12m | Jahr
+    var sortAsc by rememberSaveable { mutableStateOf(false) }
+    var periodMenu by remember { mutableStateOf(false) }
     var showSettings by remember { mutableStateOf(false) }
     val snackbar = remember { SnackbarHostState() }
     val uri = LocalUriHandler.current
@@ -228,18 +237,40 @@ fun NewsScreen(vm: NewsViewModel = viewModel()) {
     }
 
     val terms = NewsRepository.normalize(query).split(" ").filter { it.isNotBlank() }
-    val filtered = remember(all, query, category, onlyCurated) {
+    val years = remember(all) { all.map { it.year }.distinct().sortedDescending() }
+    val lands = remember(all) { Lands.sorted(all.map { it.land }) }
+    val from = when (period) {
+        "30d" -> LocalDate.now().minusDays(30).toString()
+        "12m" -> LocalDate.now().minusDays(365).toString()
+        else -> null
+    }
+    val filtered = remember(all, query, category, onlyCurated, land, period, sortAsc) {
         all.filter { n ->
             (category == null || Category.of(n.category) == category) &&
                 (!onlyCurated || n.curated) &&
+                (land == null || n.land == land) &&
+                when {
+                    period == "all" -> true
+                    from != null -> n.sortKey >= from || n.startKey >= from
+                    else -> n.year == period
+                } &&
                 terms.all { t ->
                     NewsRepository.normalize(
-                        listOf(n.title, n.summary, n.place, n.source, Category.of(n.category).label).joinToString(" ")
+                        listOf(n.title, n.summary, n.place, n.source, Category.of(n.category).label, n.land, Lands.name(n.land))
+                            .joinToString(" ")
                     ).contains(t)
                 }
-        }
+        }.let { list -> if (sortAsc) list.sortedBy { it.sortKey } else list.sortedByDescending { it.sortKey } }
     }
-    val byYear = filtered.groupBy { it.year }.toSortedMap(compareByDescending { it })
+    val byYear = filtered.groupBy { it.year }
+        .toSortedMap(if (sortAsc) compareBy<String> { it } else compareByDescending { it })
+    val periodLabel = when (period) {
+        "all" -> "Alle Jahre"
+        "30d" -> "Letzte 30 Tage"
+        "12m" -> "Letzte 12 Monate"
+        else -> period
+    }
+    val anyFilter = query.isNotBlank() || category != null || onlyCurated || land != null || period != "all" || sortAsc
 
     Scaffold(
         containerColor = MaterialTheme.colorScheme.background,
@@ -303,10 +334,68 @@ fun NewsScreen(vm: NewsViewModel = viewModel()) {
                     val count = all.count { Category.of(it.category) == c }
                     FilterChip(
                         selected = category == c,
-                        onClick = { category = if (category == c) null else c },
+                        onClick = { categoryKey = if (category == c) null else c.key },
                         leadingIcon = { Box(Modifier.size(8.dp).background(categoryColor(c), CircleShape)) },
                         label = { Text("${c.label} $count") },
                     )
+                }
+            }
+            LazyRow(
+                contentPadding = PaddingValues(horizontal = 16.dp),
+                horizontalArrangement = Arrangement.spacedBy(6.dp),
+            ) {
+                item {
+                    FilterChip(selected = land == null, onClick = { land = null }, label = { Text("Alle Länder") })
+                }
+                items(lands) { code ->
+                    val count = all.count { it.land == code }
+                    FilterChip(
+                        selected = land == code,
+                        onClick = { land = if (land == code) null else code },
+                        label = {
+                            Text(
+                                buildAnnotatedString {
+                                    pushStyle(SpanStyle(fontFamily = FontFamily.Monospace)); append(code.ifBlank { "?" }); pop()
+                                    append(" ${Lands.name(code)} $count")
+                                }
+                            )
+                        },
+                    )
+                }
+            }
+            Row(
+                Modifier.fillMaxWidth().padding(horizontal = 8.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Box {
+                    TextButton(onClick = { periodMenu = true }) {
+                        Text(periodLabel)
+                        Icon(Icons.Filled.ArrowDropDown, "Zeitraum wählen")
+                    }
+                    DropdownMenu(expanded = periodMenu, onDismissRequest = { periodMenu = false }) {
+                        (listOf("all", "30d", "12m") + years).forEach { p ->
+                            DropdownMenuItem(
+                                text = {
+                                    Text(
+                                        when (p) {
+                                            "all" -> "Alle Jahre"; "30d" -> "Letzte 30 Tage"; "12m" -> "Letzte 12 Monate"
+                                            else -> "$p (${all.count { it.year == p }})"
+                                        }
+                                    )
+                                },
+                                onClick = { period = p; periodMenu = false },
+                            )
+                        }
+                    }
+                }
+                TextButton(onClick = { sortAsc = !sortAsc }) {
+                    Text(if (sortAsc) "Älteste zuerst ↑" else "Neueste zuerst ↓")
+                }
+                Spacer(Modifier.weight(1f))
+                if (anyFilter) {
+                    TextButton(onClick = {
+                        query = ""; categoryKey = null; onlyCurated = false; land = null; period = "all"; sortAsc = false
+                    }) { Text("Zurücksetzen") }
                 }
             }
             Text(
@@ -318,7 +407,7 @@ fun NewsScreen(vm: NewsViewModel = viewModel()) {
 
             if (filtered.isEmpty()) {
                 Text(
-                    "Keine Meldung passt zu deiner Suche. Versuch einen Ortsnamen oder eine Giesserei, oder setz die Filter zurück.",
+                    "Keine Meldung passt zu deiner Auswahl. Versuch einen anderen Zeitraum, ein anderes Land oder setz die Filter zurück.",
                     modifier = Modifier.padding(16.dp),
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -383,7 +472,7 @@ private fun NewsRow(n: NewsItem, terms: List<String>, onOpen: () -> Unit) {
             )
         }
         Spacer(Modifier.height(6.dp))
-        val meta = listOf(n.source, n.place).filter { it.isNotBlank() }.joinToString(" · ") +
+        val meta = listOf(n.land, n.source, n.place).filter { it.isNotBlank() }.joinToString(" · ") +
             if (n.curated) "" else "  ·  automatisch gefunden"
         Text(meta, fontSize = 12.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
