@@ -15,6 +15,8 @@ Diese Liste prüft die wöchentliche Aktualisierung jedes Mal direkt. Sie ergän
 - Kath. Konfessionsteil des Kantons St. Gallen | https://sg.kath.ch/news/ | CH
 - Ref. Kirchgemeinde Bad Zurzach | https://www.ref-kirche-zurzach.ch | CH
 - Pfarrei Baden-Ennetbaden | https://www.pastoralraum-aargauer-limmattal.ch/baden/aktuell | CH
+- Pfarrei Einsiedeln | https://www.pfarrei-einsiedeln.ch/news/ | CH
+- Pfarramt Feusisberg | https://www.pfarrei-feusisberg.ch/aktuelles/aktuell/ | CH
 
 ## Deutschland
 - Ev. Kirchenkreis Prignitz | https://www.kirchenkreis-prignitz.de/nachrichten | DE
@@ -31,6 +33,12 @@ Diese Liste prüft die wöchentliche Aktualisierung jedes Mal direkt. Sie ergän
 - Ev. Kirchenkreis Vlotho | https://www.kirchenkreis-vlotho.de | DE
 - Bistum Passau | https://www.bistum-passau.de | DE
 - Ev.-Luth. Kirchengemeinde Uttenreuth | https://www.uttenreuth-evangelisch.de | DE
+- Pfarreiengemeinschaft Pähl-Raisting-Wielenbach | https://pg-prw.de/pfarreiengemeinschaft/aktuelles/ | DE
+- Pastoraler Raum Hammelburg (Bistum Würzburg) | https://hammelburg.bistum-wuerzburg.de/aktuelles/nachrichten/ | DE
+- Bistum Regensburg | https://bistum-regensburg.de/news/ | DE
+- Ev. Kirchengemeinde Schwerte | https://www.evangelische-kirche-schwerte.de | DE
+- Ev.-Luth. Kirchgemeinde Kamenz-Cunnersdorf | https://www.kg-kamenz-cunnersdorf.de/friedensglocke/das-projekt/ | DE
+- Kirchbauverein Jena | https://www.kirchbauverein-jena.de | DE
 
 ## Österreich
 - Diözese Linz | https://www.dioezese-linz.at | AT
@@ -41,3 +49,4 @@ Diese Liste prüft die wöchentliche Aktualisierung jedes Mal direkt. Sie ergän
 - Kirche bunt / meinekirchenzeitung.at (Kirchenzeitungen) | https://www.meinekirchenzeitung.at/tag/glockenweihe | AT
 - Pfarre Neunkirchen (NÖ) | https://www.pfarre-neunkirchen.at | AT
 - Pfarre St. Ulrich bei Steyr | https://www.dioezese-linz.at/pfarre/4364/aktuelles | AT
+- Diözese Linz, Aus den Pfarren | https://www.dioezese-linz.at/ausdenpfarren | AT

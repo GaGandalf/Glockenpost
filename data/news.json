@@ -1,6 +1,316 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-11-02",
  "items": [
+  {
+   "date": "2026-10-30",
+   "category": "san",
+   "title": "Gross Spiegelberg: Dorf repariert 230 Jahre alte Glocke",
+   "place": "Gross Spiegelberg (MV)",
+   "country": "DE",
+   "source": "Nordkurier",
+   "url": "https://www.nordkurier.de/regional/pasewalk/pasewalk-und-strasburg/wie-zu-ddr-zeiten-gross-spiegelberg-rettet-seine-glocke-gemeinsam-4973857",
+   "summary": "Die 1796 in Stettin gegossene Glocke schwieg seit 2024 wegen unsicherer Aufhängung. Dorfbewohner erneuerten ehrenamtlich das Holz des Glockenstuhls, ein Schmied baute einen neuen Klöppel ein; am 31. Oktober wurde sie neu geweiht."
+  },
+  {
+   "date": "2026-10-30",
+   "category": "weihe",
+   "title": "Westerheim: gerettete Glocke erhält neuen Glockenturm",
+   "place": "Westerheim (BW)",
+   "country": "DE",
+   "source": "Schwäbische Zeitung",
+   "url": "https://www.schwaebische.de/regional/ulm-alb-donau/laichingen/neuer-glockenturm-der-westerheimer-aussegnungshalle-wird-gesegnet-4971867",
+   "summary": "Die historische Glocke der abgerissenen Aussegnungshalle wurde gerettet und restauriert. Sie hängt nun in einem spendenfinanzierten Stahlturm beim Friedhof, der an Allerheiligen gesegnet wurde."
+  },
+  {
+   "date": "2026-10-14",
+   "category": "san",
+   "title": "Oberdielbach: Friedhofsglocken läuten nach Blitzschaden wieder",
+   "place": "Waldbrunn-Oberdielbach (BW)",
+   "country": "DE",
+   "source": "NOKZEIT",
+   "url": "https://www.nokzeit.de/2026/10/14/beisetzungen-wieder-mit-glockengelaeut/",
+   "summary": "Ein Blitz hatte die Läutesteuerung zerstört. Die Firma Schneider aus Schonach reparierte die Anlage und baute eine Funkfernsteuerung ein."
+  },
+  {
+   "date": "2026-10-06",
+   "category": "weihe",
+   "title": "Gauaschach: Glockeneinzug am 7. und Weihe am 14. November",
+   "place": "Hammelburg-Gauaschach (BY)",
+   "country": "DE",
+   "source": "Pastoraler Raum Hammelburg (Bistum Würzburg)",
+   "url": "https://hammelburg.bistum-wuerzburg.de/aktuelles/nachrichten/na-detail/ansicht/neue-glocken-fuer-gauaschach-am-7-und-14-november",
+   "summary": "Die neuen Glocken von St. Sebastian werden am 7. November im Festzug ins Dorf gebracht. Am 14. November weiht Weihbischof Paul Reder sie; der Turm erhält zudem einen neuen Glockenstuhl."
+  },
+  {
+   "date": "2026-10-03",
+   "category": "weihe",
+   "title": "Jena-Ziegenhain: zwei neue Perner-Glocken geweiht",
+   "place": "Jena-Ziegenhain (TH)",
+   "country": "DE",
+   "source": "Kirchbauverein Jena",
+   "url": "https://www.kirchbauverein-jena.de/post/glockenweihe-in-ziegenhain",
+   "summary": "An Erntedank wurden in der Marienkirche zwei Bronzeglocken von Perner geweiht, die grössere wiegt 530 kg. Weil die Klöppel später geliefert werden, läuten sie erst im neuen Jahr."
+  },
+  {
+   "date": "2026-09-26",
+   "category": "weihe",
+   "title": "Asbach-Bäumenheim: Bischof Meier segnet neue Glocke",
+   "place": "Asbach-Bäumenheim (BY)",
+   "country": "DE",
+   "source": "Bistum Augsburg",
+   "url": "https://www2.bistum-augsburg.de/maria-immaculata-bekommt-neue-glocke_id1917119",
+   "summary": "Zum 50-Jahr-Jubiläum von Maria Immaculata segnete Bischof Bertram Meier eine rund 250 kg schwere Perner-Glocke. Zugleich wurde die Läuteanlage mit neuen Motoren und Steuerung erneuert."
+  },
+  {
+   "date": "2026-09-20",
+   "category": "sonst",
+   "title": "Warum Glockenläuten entspannen kann",
+   "place": "Karlsruhe (BW)",
+   "country": "DE",
+   "source": "evangelisch.de (epd)",
+   "url": "https://www.evangelisch.de/inhalte/259218/20-09-2026/warum-glockenlauten-entspannen-kann",
+   "summary": "Der Glockensachverständige der badischen Landeskirche, Michael G. Kaufmann, empfiehlt, das Läuten im Alltag als kurze Pause zum Innehalten zu nutzen."
+  },
+  {
+   "date": "2026-09-12",
+   "category": "sonst",
+   "title": "Massenhausen: 400 Jahre alte Glocke wird zum Denkmal",
+   "place": "Massenhausen (BY)",
+   "country": "DE",
+   "source": "Freisinger Anzeiger / meine-anzeigenzeitung.de",
+   "url": "https://www.meine-anzeigenzeitung.de/lokales/freising/400-jahre-alte-kirchenglocke-schwebt-aus-massenhausener-turm-und-wird-denkmal-94488208.html",
+   "summary": "Die 1624 gegossene, denkmalgeschützte Glocke wurde per Kran aus dem Turm gehoben. Nach der Aufbereitung soll sie auf einem Podest beim Eingang zu Kirche und Friedhof stehen."
+  },
+  {
+   "date": "2026-09-10",
+   "category": "guss",
+   "title": "Rincker giesst drei Kirchenglocken",
+   "place": "Sinn (HE)",
+   "country": "DE",
+   "source": "Kirchentag 2027 / EKiR",
+   "url": "https://kirchentag2027.ekir.de/aktuelles/jahrhunderte-tradition-glockenguss-37201",
+   "summary": "Reportage über den Guss von drei Bronzeglocken in der Giesserei Rincker. Für welche Kirche sie bestimmt sind, nennt der Bericht nicht."
+  },
+  {
+   "date": "2026-09-05",
+   "category": "san",
+   "title": "Borgholzhausen: Glocken läuten nach Sanierung wieder",
+   "place": "Borgholzhausen (NW)",
+   "country": "DE",
+   "source": "Haller Kreisblatt",
+   "url": "https://www.haller-kreisblatt.de/lokal/borgholzhausen/24410002_Borgholzhausens-Glocken-laeuten-wieder-Zwei-Millionen-Euro-fuer-Kirchensanierung.html",
+   "summary": "Im Rahmen der rund zwei Millionen Euro teuren Kirchensanierung erneuerte eine Fachfirma das Holzjoch. Die drei Glocken der evangelischen Kirche sind wieder in Betrieb."
+  },
+  {
+   "date": "2026-08-12",
+   "category": "sonst",
+   "title": "Einsiedeln: die Glocken der Jugendkirche",
+   "place": "Einsiedeln (SZ)",
+   "country": "CH",
+   "source": "Pfarrei Einsiedeln",
+   "url": "https://www.pfarrei-einsiedeln.ch/news/2026-08/die-glocken-der-jugendkirche/",
+   "summary": "Porträt des Geläuts mit vier Rüetschi-Glocken von 1980 und einer 345 Jahre alten kleinen Glocke, die nur an Allerheiligen läutet."
+  },
+  {
+   "date": "2026-08-08",
+   "category": "san",
+   "title": "Holzkirchen: Glockenkonzert im neuen Holzglockenstuhl",
+   "place": "Holzkirchen (BY)",
+   "country": "DE",
+   "source": "KulturVision",
+   "url": "https://www.kulturvision-aktuell.de/glockenkonzert-laurentius-2026/",
+   "summary": "In St. Laurentius ersetzt ein Holzglockenstuhl den baufälligen Stahlstuhl von 1951. Ein Konzert stellt die fünf Glocken vor, die älteste stammt von 1603."
+  },
+  {
+   "date": "2026-07-20",
+   "category": "weihe",
+   "title": "Wartenberg: zwei neue Glocken für Mariä Geburt",
+   "place": "Wartenberg (BY)",
+   "country": "DE",
+   "source": "Erdinger Anzeiger / meine-anzeigenzeitung.de",
+   "url": "https://www.meine-anzeigenzeitung.de/lokales/erding/glockenweihe-in-wartenberg-250-000-euro-kamen-durch-spenden-zusammen-94405093.html",
+   "summary": "Weihbischof Wolfgang Bischof weihte zwei in Passau gegossene Glocken mit 1200 und 355 kg, die das Geläut vervollständigen. Rund 250'000 Euro kamen aus Spenden."
+  },
+  {
+   "date": "2026-07-11",
+   "category": "weihe",
+   "title": "Raisting: Bischof Meier weiht vier Glocken für St. Remigius",
+   "place": "Raisting (BY)",
+   "country": "DE",
+   "source": "Pfarreiengemeinschaft Pähl-Raisting-Wielenbach",
+   "url": "https://pg-prw.de/pfarreiengemeinschaft/aktuelles/single-news/glockenweihe-in-raisting",
+   "summary": "Geweiht wurden drei Glocken aus einer aufgegebenen Füssener Kirche und eine in Innsbruck neu gegossene Remigiusglocke von 226 kg."
+  },
+  {
+   "date": "2026-07",
+   "category": "san",
+   "title": "Villach St. Josef: Glockenanlage soll saniert werden",
+   "place": "Villach (K)",
+   "country": "AT",
+   "source": "Pfarrblatt St. Josef (Kath. Kirche Kärnten)",
+   "url": "https://www.kath-kirche-kaernten.at/images/downloads/st.-josef-juli-2026-aktuell.pdf",
+   "summary": "Technik und Mechanik der beiden Glocken sind veraltet. Die Pfarre finanziert die Sanierung unter anderem über den Verkauf kleiner Glocken."
+  },
+  {
+   "date": "2026-06-04",
+   "category": "sonst",
+   "title": "Bielen: Kirchbauverein sammelt für dritte Glocke",
+   "place": "Bielen (TH)",
+   "country": "DE",
+   "source": "nnz-online",
+   "url": "https://nnz-online.de/news/news_lang.php?ArtNr=386286",
+   "summary": "Die im Zweiten Weltkrieg verlorene grösste Glocke von St. Martin und Johannes soll neu gegossen werden. Spender können symbolisch Kilogramm Bronze erwerben."
+  },
+  {
+   "date": "2026-06-01",
+   "category": "weihe",
+   "title": "Wölfnitz: gespendete Glocke macht Geläut komplett",
+   "place": "Wölfnitz/Saualpe (K)",
+   "country": "AT",
+   "source": "MeinBezirk Völkermarkt",
+   "url": "https://www.meinbezirk.at/voelkermarkt/c-regionauten-community/glockenweihe-in-woelfnitz-ad-saualpe_a8670233",
+   "summary": "Am Pfingstmontag weihte Dechant Gerfried Sitar eine von einem Gönner gespendete Glocke. Damit ist das im Krieg eingeschmolzene Geläut wieder vollständig."
+  },
+  {
+   "date": "2026-05-04",
+   "category": "san",
+   "title": "Lahr: Stiftskirche schweigt wegen Schäden am Glockenstuhl",
+   "place": "Lahr (BW)",
+   "country": "DE",
+   "source": "Schwarzwälder Bote",
+   "url": "https://www.schwarzwaelder-bote.de/lokales/lahr/sanierungs-und-erneuerungsarbeiten-die-glocken-der-lahrer-stiftskirche-muessen-ab-mitte-mai-schweigen-78848004.html",
+   "summary": "Wegen Schäden am Stahlglockenstuhl wird das Geläut stillgelegt. Geplant sind ein Eichenstuhl und vier neue Bronzeglocken anstelle der Stahlglocken."
+  },
+  {
+   "date": "2026-04-22",
+   "category": "sonst",
+   "title": "Hof: grösste Glocke der Michaeliskirche schweigt",
+   "place": "Hof (BY)",
+   "country": "DE",
+   "source": "Frankenpost",
+   "url": "https://www.frankenpost.de/inhalt.michaeliskirche-warum-hofs-groesste-glocke-nicht-laeutet.a9c15547-3a04-43d9-ba0d-689df94918e8.html",
+   "summary": "Die Glocke von 1832 ist aus Sicherheitsgründen abgeschaltet, weil ihre Aufhängung marode ist. Ein Benefizkonzert soll Geld für die Reparatur bringen."
+  },
+  {
+   "date": "2026-04-22",
+   "category": "sonst",
+   "title": "Bad Hersfeld: Glocken der entwidmeten Eichhofkirche ausgebaut",
+   "place": "Bad Hersfeld (HE)",
+   "country": "DE",
+   "source": "Hersfelder Zeitung",
+   "url": "https://www.hersfelder-zeitung.de/bad-hersfeld/die-vier-glocken-der-kirche-am-eichhof-sind-fuer-immer-verstummt-94272770.html",
+   "summary": "Die vier bis zu 450 kg schweren Glocken wurden per Kran aus dem Turm gehoben. Sie werden zum Kauf angeboten, eine ostdeutsche Gemeinde zeigt Interesse."
+  },
+  {
+   "date": "2026-04-02",
+   "category": "san",
+   "title": "Bürglen: Kredit für Joche und Klöppel der ältesten Glocken",
+   "place": "Bürglen (TG)",
+   "country": "CH",
+   "source": "Neuer Anzeiger",
+   "url": "https://www.neueranzeiger.ch/kirchgemeinde-investiert-in-zukunft/",
+   "summary": "Die evangelische Kirchgemeinde bewilligte 53'000 Franken für die Sanierung der beiden Glocken von 1865 mit neuen Holzjochen, Klöppeln und Kehreisen."
+  },
+  {
+   "date": "2026-02-18",
+   "category": "san",
+   "title": "Triberg: St. Clemens mit neuen Jochen und Klöppeln",
+   "place": "Triberg (BW)",
+   "country": "DE",
+   "source": "Schwarzwälder Bote",
+   "url": "https://www.schwarzwaelder-bote.de/lokales/st-georgen-triberg/stadtkirche-in-triberg-jetzt-laeuten-sie-wieder-zum-lobe-gottes-78969866.html",
+   "summary": "Die Turmuhrenfabrik Schneider gab dem fünfstimmigen Geläut von 1958 neue Holzjoche, Läuteräder und Klöppel. Die Kosten von über 40'000 Euro deckten Spenden."
+  },
+  {
+   "date": "2025-12-15",
+   "category": "san",
+   "title": "Bamberg: Michaelsberg-Geläut klingt erstmals vollständig",
+   "place": "Bamberg (BY)",
+   "country": "DE",
+   "source": "Radio Bamberg",
+   "url": "https://www.radio-bamberg.de/glocken-des-michaelsklosters-laeuten-erstmals-wieder-nach-der-sanierung-1928522/",
+   "summary": "Nach der Sanierung von St. Michael erklang das Geläut erstmals komplett, darunter sechs 2024 bei Rincker gegossene Glocken."
+  },
+  {
+   "date": "2025-11-25",
+   "category": "weihe",
+   "title": "Strasskirchen: Bischof segnet sanierten Turm und Geläut",
+   "place": "Strasskirchen (BY)",
+   "country": "DE",
+   "source": "Bistum Regensburg",
+   "url": "https://bistum-regensburg.de/news/bischof-rudolf-voderholzer-segnet-in-strasskirchen-neue-kirchenglocken-und-eroeffnet-die-krippenausstellung",
+   "summary": "Bischof Voderholzer segnete den sanierten Turm von St. Stephan und das neue Geläut. Alle fünf Glocken läuten wieder, zuvor war nur eine in Betrieb."
+  },
+  {
+   "date": "2025-10-21",
+   "category": "weihe",
+   "title": "Schwerte: neues Bronzegeläut für St. Viktor",
+   "place": "Schwerte (NW)",
+   "country": "DE",
+   "source": "Ev. Kirchengemeinde Schwerte",
+   "url": "https://www.evangelische-kirche-schwerte.de/neue-glocken-fuer-st-viktor/",
+   "summary": "Die Stahlglocken werden durch übernommene und zwei neu gegossene Bronzeglocken ersetzt. Am 28. Oktober 2025 waren Segensandacht und Kranaufzug geplant."
+  },
+  {
+   "date": "2025-07-04",
+   "category": "weihe",
+   "title": "Bamberg: sechs neue Rincker-Glocken für St. Michael geweiht",
+   "place": "Bamberg (BY)",
+   "country": "DE",
+   "source": "Bürgerspitalstiftung Bamberg",
+   "url": "https://www.buergerspitalstiftung.de/klosteranlage-michaelsberg/aktuelles/detail/sechs-neue-glocken-fuer-st-michael",
+   "summary": "Erzbischof Herwig Gössl weihte sechs Glocken für die Klosterkirche auf dem Michaelsberg, die Rincker im November 2024 im Lehmformverfahren gegossen hatte."
+  },
+  {
+   "date": "2025-05",
+   "category": "weihe",
+   "title": "Kamenz: neu gegossene Friedensglocke geweiht",
+   "place": "Kamenz (SN)",
+   "country": "DE",
+   "source": "Ev.-Luth. Kirchgemeinde Kamenz-Cunnersdorf",
+   "url": "https://www.kg-kamenz-cunnersdorf.de/friedensglocke/das-projekt/",
+   "summary": "Die im September 2024 gegossene Friedensglocke wurde am 18. Mai 2025 zum Stadtjubiläum geweiht; im September 2025 folgte eine Christusglocke."
+  },
+  {
+   "date": "2024-10-11",
+   "category": "sonst",
+   "title": "Zürich-Wollishofen: Petition gegen Morgengeläut",
+   "place": "Zürich (ZH)",
+   "country": "CH",
+   "source": "Blick",
+   "url": "https://www.blick.ch/news/kampf-ums-heilige-laeuten-ich-bete-zu-gott-dass-die-kirchenglocke-verstummt-id20218681.html",
+   "summary": "Eine Anwohnerin will das Morgengeläut der reformierten Kirche auf der Egg stoppen. Im Kanton Zürich laufen drei solche Petitionen."
+  },
+  {
+   "date": "2024-05-07",
+   "category": "sonst",
+   "title": "Kelheim: Klage gegen Viertelstundenschlag abgewiesen",
+   "place": "Landkreis Kelheim (BY)",
+   "country": "DE",
+   "source": "Tiroler Tageszeitung (dpa)",
+   "url": "https://www.tt.com/artikel/30882130/zu-laute-kirchenglocken-gericht-lehnt-klage-ab-anwohner-muss-damit-leben",
+   "summary": "Das OLG Nürnberg entschied, dass ein Anwohner den viertelstündlichen Glockenschlag hinnehmen muss, da die Messwerte im zulässigen Rahmen liegen."
+  },
+  {
+   "date": "2024-02-06",
+   "category": "weihe",
+   "title": "Passau: Glocke für Spectrum Kirche gesegnet",
+   "place": "Passau (BY)",
+   "country": "DE",
+   "source": "Bistum Passau",
+   "url": "https://www.bistum-passau.de/artikel/glockenweihe-spectrum-weihe",
+   "summary": "Für das Bildungshaus Spectrum Kirche wurde eine Bernhardsglocke in einem von Freiwilligen gebauten Holzturm gesegnet; sie wird von Hand geläutet."
+  },
+  {
+   "date": "2021-06-25",
+   "category": "guss",
+   "title": "Merseburger Dom: neue 890-kg-Glocke gegossen",
+   "place": "Merseburg (ST)",
+   "country": "DE",
+   "source": "Der Sonntag (Sachsen)",
+   "url": "https://www.sonntag-sachsen.de/neue-glocke-fuer-merseburger-dom-gegossen",
+   "summary": "In Freiberg wurde eine Glocke nach dem Vorbild der Hilliger-Glocke «Maria» von 1518 gegossen. Die Weihe war zum Domjubiläum im Oktober 2021 geplant."
+  },
   {
    "date": "2026-10-19",
    "category": "san",
