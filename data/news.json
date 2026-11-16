@@ -1,6 +1,146 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-16",
  "items": [
+  {
+   "date": "2026-11-13",
+   "category": "san",
+   "title": "Barby: historische Glocken von St. Marien werden repariert",
+   "place": "Barby (ST)",
+   "country": "DE",
+   "source": "Volksstimme",
+   "url": "https://www.volksstimme.de/lokal/schoenebeck/st-marien-in-barby-reparatur-der-historischen-glocken-lauft-auf-hochtouren-4355446",
+   "summary": "Die Firma HEW Kirchturmtechnik aus Herford repariert die beiden historischen Bronzeglocken von St. Marien, eine davon wurde dafür abgenommen. Zum Start des Weihnachtsmarkts Ende November sollen sie wieder läuten."
+  },
+  {
+   "date": "2026-11-08",
+   "category": "weihe",
+   "title": "Westerheim: neuer Glockenturm gesegnet, Glocke läutet erstmals",
+   "place": "Westerheim (BW)",
+   "country": "DE",
+   "source": "Schwäbische Zeitung",
+   "url": "https://www.schwaebische.de/regional/ulm-alb-donau/laichingen/glocke-soll-trost-und-verbundenheit-schenken-4990792",
+   "summary": "An Allerheiligen wurde der neue Glockenturm mit der restaurierten Glocke bei der Aussegnungshalle gesegnet, die Glocke erklang dabei zum ersten Mal. Die rund 15'200 Euro Kosten wurden grösstenteils durch Spenden und Sachleistungen gedeckt."
+  },
+  {
+   "date": "2026-11-06",
+   "category": "weihe",
+   "title": "Bremke: Erzbischof segnet Nachguss der Frielinghauser Glocke",
+   "place": "Eslohe-Bremke (NW)",
+   "country": "DE",
+   "source": "Erzbistum Paderborn",
+   "url": "https://www.erzbistum-paderborn.de/news/zwei-doerfer-ein-klang/",
+   "summary": "Erzbischof Udo Markus Bentz segnete eine 40 Kilogramm schwere, bei Eijsbouts gegossene Nachbildung der historischen Glocke der Nikolauskapelle Frielinghausen, wo sie ab dem 6. Dezember läuten soll. Das Original aus dem 15./16. Jahrhundert kehrt als Leihgabe in die polnische Pfarrei Kielcza zurück."
+  },
+  {
+   "date": "2026-11-02",
+   "category": "weihe",
+   "title": "Bergen (Elsterheide): neue Friedhofsglocke läutet erstmals",
+   "place": "Elsterheide-Bergen (SN)",
+   "country": "DE",
+   "source": "hoyte24",
+   "url": "https://hoyte24.de/das-erste-laeuten-der-neuen-glocke/",
+   "summary": "Am 1. November wurde die neue Glocke der Friedhofskapelle Neuwiese-Bergen eingeweiht und erklang erstmals zum Mittagsgeläut. Damit schloss der Traditionsverein Elsterland Bergen sein spendenfinanziertes Glockenprojekt ab."
+  },
+  {
+   "date": "2026-11",
+   "category": "guss",
+   "title": "Bünsdorf: Gemeinde sammelt für eine zweite Glocke",
+   "place": "Bünsdorf (SH)",
+   "country": "DE",
+   "source": "Gemeindebrief Kirchengemeinde Bünsdorf",
+   "url": "https://www.kirche-buensdorf.de/fileadmin/download_buensdorf/Gemeindebrief_Final_03.26_kl.pdf",
+   "summary": "Die St.-Katharinen-Kirche verlor eine ihrer zwei Glocken im Ersten Weltkrieg. Die Kirchengemeinde sammelt nun Spenden, damit nach über 100 Jahren wieder eine zweite Glocke im Turm hängt."
+  },
+  {
+   "date": "2026-10-28",
+   "category": "weihe",
+   "title": "Mairspindt: gerissene Dorfglocke wieder gesegnet",
+   "place": "Windhaag bei Freistadt (OÖ)",
+   "country": "AT",
+   "source": "Tips",
+   "url": "https://www.tips.at/nachrichten/freistadt/land-leute/740106-mairspindt-feiert-glockenweihe-und-50-jahre-wassergenossenschaft",
+   "summary": "An der vermutlich 1842 gegossenen Dorfglocke war im Januar ein rund zwölf Zentimeter langer Riss entdeckt worden, danach blieb sie acht Monate stumm. Nach der Reparatur, finanziert durch Spenden der 34 Haushalte und mit Landeshilfe für die Steuerung, wurde sie bei einem Dorffest gesegnet."
+  },
+  {
+   "date": "2026-09-01",
+   "category": "sonst",
+   "title": "ref.ch: was Lesende mit Kirchenglocken verbinden",
+   "place": "Schweiz",
+   "country": "CH",
+   "source": "ref.ch",
+   "url": "https://www.ref.ch/news/kirchenglocken-kirchglocken-schweiz-reformierte-kirche/",
+   "summary": "ref.ch fragte die Leserschaft, ob sie das Geläut schätzt oder als störend empfindet. Die Antworten betonen Innehalten, Orientierung durch den Viertelstundenschlag und die Begleitung bei Beerdigungen."
+  },
+  {
+   "date": "2026-08-04",
+   "category": "san",
+   "title": "Märstetten: Glocken verstummen für die Sanierung",
+   "place": "Märstetten (TG)",
+   "country": "CH",
+   "source": "Evang. Kirchgemeinde Märstetten",
+   "url": "https://evang-maerstetten.ch/wenn-die-glocken-schweigen/",
+   "summary": "Die fünf Glocken von St. Jakob wurden für rund drei Monate stillgelegt. Rüetschi überholt den Glockenstuhl, ersetzt Klöppel und Joche und baut eine Schwingungsdämmung ein; die Kirchgemeinde hatte dafür 174'000 Franken bewilligt."
+  },
+  {
+   "date": "2026-06",
+   "category": "san",
+   "title": "Hilgershausen: neue Läutetechnik und dritte Glocke geplant",
+   "place": "Hilgershausen (HE)",
+   "country": "DE",
+   "source": "Gemeindebrief Kirchspiel Sipperhausen",
+   "url": "https://www.evangelischer-gemeindebrief.de/pfarrbrief/?pariCode=TKYTHPZF",
+   "summary": "Die zweite Glocke läutet nicht mehr, Läutemaschine und Turmelektrik müssen ersetzt werden. Aus einem Vermächtnis soll zudem eine dritte Glocke finanziert werden, das Leistungsverzeichnis ging an die Giesserei Rincker."
+  },
+  {
+   "date": "2026-06",
+   "category": "san",
+   "title": "Königshofen an der Heide: Glockenstuhl wartet auf Sanierung",
+   "place": "Königshofen an der Heide (BY)",
+   "country": "DE",
+   "source": "Gemeindebrief Königshofen an der Heide",
+   "url": "https://www.koenigshofen-evangelisch.com/system/files/dateien/gemeindebrief_koenigshofen_an_der_heide_2026-3_0.pdf",
+   "summary": "Wegen des maroden Glockenstuhls können die Glocken seit 2015 nicht mehr richtig läuten. Das Staatliche Bauamt stellt die Sanierung wegen Personalmangels frühestens für Frühjahr 2027 in Aussicht."
+  },
+  {
+   "date": "2026-05-29",
+   "category": "guss",
+   "title": "St. Michael im Burgenland: Grassmayr giesst vierte Glocke",
+   "place": "St. Michael im Burgenland (B)",
+   "country": "AT",
+   "source": "Pfarre St. Michael im Burgenland",
+   "url": "https://www.martinus.at/pfarre/1152/glockenrenovierungunderwe",
+   "summary": "Grassmayr in Innsbruck goss am 29. Mai eine vierte Glocke für die Pfarrkirche, zugleich wurden Mechanik, Elektrik und Steuerung von 1974 ersetzt. Die Weihe folgte am 12. Juli beim Pfarrfest."
+  },
+  {
+   "date": "2026-03-19",
+   "category": "sonst",
+   "title": "Diözese Graz-Seckau warnt vor falschen Glockenexperten",
+   "place": "Graz (ST)",
+   "country": "AT",
+   "source": "Kirchliches Verordnungsblatt Diözese Graz-Seckau",
+   "url": "https://www.katholische-kirche-steiermark.at/dl/KpstJmoJlLNLJqx4KJKJKJKMoL/1_2026_KVBl_pdf",
+   "summary": "Die Diözese warnt vor Personen, die sich als Glockenexperten ausgeben. Türme und Glockenstühle dürfen nur diözesan befugte Personen nach Rücksprache betreten, Glockenfragen laufen über den diözesanen Glockenreferenten."
+  },
+  {
+   "date": "2026-03",
+   "category": "san",
+   "title": "St. Paul ob Ferndorf: Glockenstuhl und Klöppel müssen erneuert werden",
+   "place": "St. Paul ob Ferndorf (K)",
+   "country": "AT",
+   "source": "Pfarrblatt St. Paul ob Ferndorf",
+   "url": "https://www.kath-kirche-kaernten.at/images/downloads/pfarrblatt-april_2026.pdf",
+   "summary": "Im Frühjahrs-Pfarrblatt bittet der Pfarrer um Spenden, weil Glockenstuhl und Klöppel des dreistimmigen Geläuts von 1923 erneuert werden müssen."
+  },
+  {
+   "date": "2025-12-07",
+   "category": "san",
+   "title": "Neuhausen am Rheinfall: Geläut soll neue Klöppel und Joche erhalten",
+   "place": "Neuhausen am Rheinfall (SH)",
+   "country": "CH",
+   "source": "Ev.-ref. Kirchgemeinde Neuhausen am Rheinfall",
+   "url": "https://www.ref-sh.ch/dok/65102",
+   "summary": "Laut Protokoll der Kirchgemeindeversammlung sind für 2026 40'000 Franken budgetiert, um die Glocken zu vermessen, zu drehen und mit neuen Klöppeln und Jochen zu versehen. Der Lärmpegel soll so um mindestens einen Drittel sinken."
+  },
   {
    "date": "2026-10-30",
    "category": "san",

@@ -17,6 +17,7 @@ Diese Liste prüft die wöchentliche Aktualisierung jedes Mal direkt. Sie ergän
 - Pfarrei Baden-Ennetbaden | https://www.pastoralraum-aargauer-limmattal.ch/baden/aktuell | CH
 - Pfarrei Einsiedeln | https://www.pfarrei-einsiedeln.ch/news/ | CH
 - Pfarramt Feusisberg | https://www.pfarrei-feusisberg.ch/aktuelles/aktuell/ | CH
+- Ev.-ref. Kirche Kanton Schaffhausen | https://www.ref-sh.ch | CH
 
 ## Deutschland
 - Ev. Kirchenkreis Prignitz | https://www.kirchenkreis-prignitz.de/nachrichten | DE
@@ -39,6 +40,10 @@ Diese Liste prüft die wöchentliche Aktualisierung jedes Mal direkt. Sie ergän
 - Ev. Kirchengemeinde Schwerte | https://www.evangelische-kirche-schwerte.de | DE
 - Ev.-Luth. Kirchgemeinde Kamenz-Cunnersdorf | https://www.kg-kamenz-cunnersdorf.de/friedensglocke/das-projekt/ | DE
 - Kirchbauverein Jena | https://www.kirchbauverein-jena.de | DE
+- Erzbistum Paderborn | https://www.erzbistum-paderborn.de/news/ | DE
+- Kirchengemeinde Bünsdorf | https://www.kirche-buensdorf.de | DE
+- Kirchspiel Sipperhausen (Gemeindebrief) | https://www.evangelischer-gemeindebrief.de/pfarrbrief/?pariCode=TKYTHPZF | DE
+- Ev.-Luth. Kirchengemeinde Königshofen an der Heide | https://www.koenigshofen-evangelisch.com | DE
 
 ## Österreich
 - Diözese Linz | https://www.dioezese-linz.at | AT
@@ -50,3 +55,5 @@ Diese Liste prüft die wöchentliche Aktualisierung jedes Mal direkt. Sie ergän
 - Pfarre Neunkirchen (NÖ) | https://www.pfarre-neunkirchen.at | AT
 - Pfarre St. Ulrich bei Steyr | https://www.dioezese-linz.at/pfarre/4364/aktuelles | AT
 - Diözese Linz, Aus den Pfarren | https://www.dioezese-linz.at/ausdenpfarren | AT
+- Pfarre St. Michael im Burgenland (Diözese Eisenstadt) | https://www.martinus.at/pfarre/1152 | AT
+- Diözese Graz-Seckau | https://www.katholische-kirche-steiermark.at | AT
